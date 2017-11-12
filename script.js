@@ -30,5 +30,8 @@ $('#sidebar_content_1 li a:first').css("color","blue");
 $('#sidebar_content_1 li a:even').css("margin-left","5px");
 
 //Clicking on one of the post titles in the main content area replaces the content of the content DIV (with the ID of “content”) with content you specify
-
+$("#content .title").click(function () {
+	$("#content").html("Angie's changing content!");
+	$("#content").css("font-size", "30px")
+});
 //Clicking on one of the H2 elements in the sidebar toggles visibility of the list below it
