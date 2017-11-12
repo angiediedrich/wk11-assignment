@@ -35,3 +35,9 @@ $("#content .title").click(function () {
 	$("#content").css("font-size", "30px")
 });
 //Clicking on one of the H2 elements in the sidebar toggles visibility of the list below it
+$("#sidebar_content_1 h2").click(function() {
+     $(this).next().slideToggle("slow") 
+    });
+$("#sidebar_content_2 h2").click(function() {
+     $(this).next().slideToggle("slow") 
+    });
